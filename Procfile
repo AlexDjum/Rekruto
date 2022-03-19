@@ -1,1 +1,1 @@
-web: python Rekruto.py
+web: gunicorn app:app
