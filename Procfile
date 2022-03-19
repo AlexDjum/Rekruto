@@ -1,1 +1,1 @@
-worker: python Rekruto.py
+web: python Rekruto.py
