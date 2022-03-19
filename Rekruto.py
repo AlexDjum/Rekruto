@@ -9,4 +9,4 @@ def rekruto_page():
     message = request.args.get('message')
     return render_template('rekruto.html', name=name, message=message)
 
-app.run(debug=True)
+app.run(host='0.0.0.0', debug=True)
